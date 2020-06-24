@@ -1,0 +1,14 @@
+spring:
+  security:
+    user:
+      name: cat
+      password: password
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: ALWAYS
+
